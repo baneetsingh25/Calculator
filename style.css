@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Funnel Sans", sans-serif;
+}
+body{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(45deg, black,rgb(36, 35, 35));
+
+}
+.calc{
+    border: 2px solid rgb(40, 38, 38);
+    border-radius: 16px ;
+    padding: 15px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgb(49, 49, 49,0.5) ;/*top bottom left right*/
+}
+input{
+    color: #ffffff;
+    width: 320px;
+    border: none;
+    background: transparent;
+    padding: 24px;
+    margin:10px;
+    text-align: right;
+    font-size: 40px;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1) ;/*top bottom left right*/
+}
+input::placeholder{
+    color: #ffffff;
+}
+button{
+    border: none;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    box-shadow: -8px -8px 15px rgba(147, 147, 147, 0.1) ;/*top bottom left right*/
+    cursor:pointer;
+
+}
+.equalBtn{
+    background-color: orange;
+}
+.op{
+    color: greenyellow;
+}
